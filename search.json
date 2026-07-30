@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Featured analytics and machine learning projects will be showcased here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "geigerdatasolutions.com",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Data Services",
+    "section": "",
+    "text": "Services\nThis page will describe the analytics services offered by Geiger Data Solutions."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nInterested in working together?\nEmail: daniellegeiger99@gmail.com"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
