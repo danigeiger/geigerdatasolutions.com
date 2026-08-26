@@ -4,34 +4,181 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Featured analytics and machine learning projects will be showcased here."
+    "text": "These projects demonstrate how I approach data problems from raw inputs through analysis, modeling, evaluation, and communication.\n\n\n\nMachine Learning · Life Sciences\n\nBuilt a regression workflow to predict pIC50 values for CGRP receptor antagonists using molecular structure data sourced from ChEMBL. Chemical structures were represented with 880 binary fingerprint features, reduced to 133 features through variance-based selection. A tuned Random Forest regressor was deployed in an interactive Streamlit application for exploratory virtual screening.\n\n\n\n538 in-vitro bioactivity samples; 430 used for model training.\nEvaluated tree-based ensemble approaches and performed multi-stage hyperparameter tuning.\nFinal Random Forest test performance: R² = 0.815 and RMSE = 0.445 pIC50.\nBuilt a Streamlit application that accepts molecular SMILES strings and returns predicted values.\nDocumented intended use and limitations to distinguish exploratory screening from clinical or therapeutic decision-making.\n\nTechnologies: Python, Pandas, scikit-learn, molecular fingerprints, ChEMBL, Streamlit, Git/GitHub\nGitHub Repository Live Streamlit App\n\n\n\n\n\nAnalytics Engineering · SQL · Business Intelligence\n\nBuilt an end-to-end analytics workflow using retail sales data. The project begins with Python-based validation and preprocessing, moves into DuckDB for feature engineering and SQL analysis, and then carries the resulting analytical model into Power BI for dimensional modeling, DAX measures, and dashboard development.\n\n\n\nValidated data types, business rules, dates, discounts, quantities, category relationships, and identifiers.\nEngineered analytical features including fulfillment time, profit margin, customer lifetime sales, customer span, and customer tiers.\nUsed SQL to analyze customer, geographic, product, profitability, shipping, and time-based performance.\nBuilt a star-schema model in Power BI with reusable DAX measures.\nDeveloped an executive dashboard around approximately $2.30M in sales, $286K in profit, and 5,009 orders.\nExtended the project into statistical modeling with multiple linear regression.\n\nTechnologies: Python, Pandas, DuckDB, SQL, Power BI, DAX, dimensional modeling, regression, Git/GitHub\nGitHub Repository\n\n\n\n\n\nCloud Data Engineering · Machine Learning — In Development\n\nA healthcare-focused portfolio project designed to demonstrate a modern data platform workflow across data lake, warehouse, transformation, analytics, and machine learning layers. The project is being developed with careful attention to data-use restrictions and reproducibility.\nPlanned technologies: AWS S3, Redshift, SQL, Python, PyTorch, analytics engineering\n\n\n\nMy GitHub profile contains the notebooks, source code, project documentation, and supporting files behind these projects.\nVisit GitHub"
+  },
+  {
+    "objectID": "portfolio.html#cgrp-inhibitory-drug-discovery",
+    "href": "portfolio.html#cgrp-inhibitory-drug-discovery",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Machine Learning · Life Sciences"
+  },
+  {
+    "objectID": "portfolio.html#e-commerce-analytics-with-duckdb-power-bi",
+    "href": "portfolio.html#e-commerce-analytics-with-duckdb-power-bi",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Analytics Engineering · SQL · Business Intelligence"
+  },
+  {
+    "objectID": "portfolio.html#healthcare-data-platform",
+    "href": "portfolio.html#healthcare-data-platform",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Cloud Data Engineering · Machine Learning — In Development"
+  },
+  {
+    "objectID": "portfolio.html#see-the-code",
+    "href": "portfolio.html#see-the-code",
+    "title": "Portfolio",
+    "section": "",
+    "text": "My GitHub profile contains the notebooks, source code, project documentation, and supporting files behind these projects.\nVisit GitHub"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "geigerdatasolutions.com",
+    "title": "Geiger Data Solutions",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "DATA SCIENCE · ANALYTICS · MACHINE LEARNING\n\n\n\nI’m Jessica Geiger, a data scientist with a background in pharmaceutical R&D, human physiology, and applied machine learning. I build practical analytics and modeling workflows with Python, SQL, business intelligence tools, and cloud technologies.\n\nView My Work About Me"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Geiger Data Solutions",
+    "section": "Featured work",
+    "text": "Featured work\n\n\nCGRP Drug Discovery Machine Learning\nA machine-learning workflow for predicting the potency of CGRP receptor antagonists from molecular structure. The project covers chemical data preparation, molecular fingerprints, feature selection, model tuning, evaluation, and deployment through a Streamlit application.\nPython · scikit-learn · ChEMBL · Molecular Fingerprints · Streamlit\nTest performance: R² 0.815 · RMSE 0.445 pIC50\nExplore project → Launch app →\n\n\nRetail Analytics & Business Intelligence\nAn end-to-end analytics project built from a retail sales dataset, moving from data validation and feature engineering to SQL business analysis, dimensional modeling, and Power BI reporting.\nPython · Pandas · DuckDB · SQL · Power BI · Regression\nDataset scale: $2.30M sales · 5,009 orders\nExplore project →"
+  },
+  {
+    "objectID": "index.html#what-i-work-with",
+    "href": "index.html#what-i-work-with",
+    "title": "Geiger Data Solutions",
+    "section": "What I work with",
+    "text": "What I work with\n\n\nData & Programming\nPython, SQL, R, Pandas, NumPy, DuckDB, Git/GitHub\n\n\nMachine Learning\nscikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation\n\n\nAnalytics & BI\nPower BI, Tableau, Excel, data visualization, business analysis, dimensional modeling\n\n\nCloud & Platforms\nAWS, S3, Athena, EC2, Streamlit, VS Code"
+  },
+  {
+    "objectID": "index.html#life-sciences-data-science",
+    "href": "index.html#life-sciences-data-science",
+    "title": "Geiger Data Solutions",
+    "section": "Life sciences + data science",
+    "text": "Life sciences + data science\nMy technical training is paired with experience in pharmaceutical R&D and academic training in human physiology and biochemistry. I am especially interested in work where data science can support scientific, healthcare, and research decisions.\nLearn more about my background"
   },
   {
     "objectID": "services.html",
     "href": "services.html",
-    "title": "Data Services",
+    "title": "Services",
     "section": "",
-    "text": "Services\nThis page will describe the analytics services offered by Geiger Data Solutions."
+    "text": "Geiger Data Solutions is a small independent data practice focused on clear analysis, reproducible workflows, and useful deliverables. Engagements can range from focused analytical support to complete reporting and modeling workflows.\n\n\n\nExplore datasets, define useful metrics, identify trends, and answer business or research questions using Python and SQL.\nTypical work: exploratory analysis, KPI development, segmentation, trend analysis, data validation, SQL reporting.\n\n\n\nTransform analytical results into clear dashboards and decision-ready reporting for technical and non-technical audiences.\nTools: Power BI, Tableau, Excel, Python visualization.\n\n\n\nClean, validate, restructure, and document data so that downstream analysis is more reliable and repeatable.\nTypical work: data cleaning, feature engineering, ETL/ELT workflows, analytical datasets, dimensional models.\n\n\n\nBuild and evaluate predictive models when the available data and business question support a machine-learning approach.\nTypical work: regression, classification, feature engineering, model comparison, evaluation, lightweight deployment.\n\n\n\n\nMy background is especially relevant to healthcare, biotechnology, pharmaceutical, scientific, and research-oriented data, while my analytics work also applies broadly to operational and business datasets.\n\n\n\nI favor straightforward solutions that can be explained, reproduced, and maintained. That means documenting assumptions, checking data quality before modeling, choosing tools based on the problem rather than the buzzword, and communicating both results and limitations.\n\n\n\nIf you have a dataset, reporting need, or analytical question and want to see whether I can help, get in touch.\nContact Geiger Data Solutions"
+  },
+  {
+    "objectID": "services.html#data-analysis-sql",
+    "href": "services.html#data-analysis-sql",
+    "title": "Services",
+    "section": "",
+    "text": "Explore datasets, define useful metrics, identify trends, and answer business or research questions using Python and SQL.\nTypical work: exploratory analysis, KPI development, segmentation, trend analysis, data validation, SQL reporting."
+  },
+  {
+    "objectID": "services.html#dashboards-reporting",
+    "href": "services.html#dashboards-reporting",
+    "title": "Services",
+    "section": "",
+    "text": "Transform analytical results into clear dashboards and decision-ready reporting for technical and non-technical audiences.\nTools: Power BI, Tableau, Excel, Python visualization."
+  },
+  {
+    "objectID": "services.html#data-preparation-pipelines",
+    "href": "services.html#data-preparation-pipelines",
+    "title": "Services",
+    "section": "",
+    "text": "Clean, validate, restructure, and document data so that downstream analysis is more reliable and repeatable.\nTypical work: data cleaning, feature engineering, ETL/ELT workflows, analytical datasets, dimensional models."
+  },
+  {
+    "objectID": "services.html#applied-machine-learning",
+    "href": "services.html#applied-machine-learning",
+    "title": "Services",
+    "section": "",
+    "text": "Build and evaluate predictive models when the available data and business question support a machine-learning approach.\nTypical work: regression, classification, feature engineering, model comparison, evaluation, lightweight deployment."
+  },
+  {
+    "objectID": "services.html#areas-of-particular-interest",
+    "href": "services.html#areas-of-particular-interest",
+    "title": "Services",
+    "section": "",
+    "text": "My background is especially relevant to healthcare, biotechnology, pharmaceutical, scientific, and research-oriented data, while my analytics work also applies broadly to operational and business datasets."
+  },
+  {
+    "objectID": "services.html#how-i-work",
+    "href": "services.html#how-i-work",
+    "title": "Services",
+    "section": "",
+    "text": "I favor straightforward solutions that can be explained, reproduced, and maintained. That means documenting assumptions, checking data quality before modeling, choosing tools based on the problem rather than the buzzword, and communicating both results and limitations."
+  },
+  {
+    "objectID": "services.html#have-a-data-problem-to-discuss",
+    "href": "services.html#have-a-data-problem-to-discuss",
+    "title": "Services",
+    "section": "",
+    "text": "If you have a dataset, reporting need, or analytical question and want to see whether I can help, get in touch.\nContact Geiger Data Solutions"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\nInterested in working together?\nEmail: daniellegeiger99@gmail.com"
+    "text": "For data science opportunities, project collaboration, or independent analytics work, the best way to reach me is by email or LinkedIn.\n\n\n\nJessica Geiger\ndaniellegeiger99@gmail.com\n\n\n\nProfessional background, experience, and current work.\nlinkedin.com/in/jessica-d-geiger\n\n\n\nCode, notebooks, technical documentation, and project repositories.\ngithub.com/danigeiger\n\n\n\n\nBased in the San Francisco Bay Area, California, with the ability to work remotely on data and analytics projects.\n\nRecruiters and hiring teams: My portfolio pages link directly to the underlying repositories and deployed applications so you can review the technical work behind my résumé."
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "Jessica Geiger\ndaniellegeiger99@gmail.com"
+  },
+  {
+    "objectID": "contact.html#linkedin",
+    "href": "contact.html#linkedin",
+    "title": "Contact",
+    "section": "",
+    "text": "Professional background, experience, and current work.\nlinkedin.com/in/jessica-d-geiger"
+  },
+  {
+    "objectID": "contact.html#github",
+    "href": "contact.html#github",
+    "title": "Contact",
+    "section": "",
+    "text": "Code, notebooks, technical documentation, and project repositories.\ngithub.com/danigeiger"
+  },
+  {
+    "objectID": "contact.html#geiger-data-solutions",
+    "href": "contact.html#geiger-data-solutions",
+    "title": "Contact",
+    "section": "",
+    "text": "Based in the San Francisco Bay Area, California, with the ability to work remotely on data and analytics projects.\n\nRecruiters and hiring teams: My portfolio pages link directly to the underlying repositories and deployed applications so you can review the technical work behind my résumé."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Data Scientist · Pharmaceutical R&D Background · Founder, Geiger Data Solutions\nI am a data scientist whose path into the field grew out of the life sciences. My academic background in human physiology and biochemistry, combined with professional experience in pharmaceutical R&D, shaped my interest in using computation and data to answer scientific questions.\nThat interest led me to complete an M.S. in Data Science at Eastern University in 2025. My work now spans data analysis, SQL, machine learning, business intelligence, and cloud technologies, with a particular interest in healthcare and life-sciences applications.\nBefore moving more deeply into data science, I worked in R&D at AstraZeneca in Inhalation Product Development, where I gained experience in a regulated pharmaceutical environment. Seeing how computational methods and AI were increasingly being applied to drug discovery was one of the major influences behind my decision to pursue graduate training in data science.\n\n\n\n\n\nEastern University\n2025\n\n\n\nUniversity of Oregon\nMinor in Biochemistry · 2020\n\n\n\nUniversity of California, Santa Barbara\n2013\n\n\n\nAmazon Web Services\n2025\n\n\n\n\n\nProgramming & Data: Python, R, SQL, Pandas, NumPy, DuckDB, Git/GitHub\nMachine Learning: scikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation\nBusiness Intelligence: Power BI, Tableau, Excel, dimensional modeling, DAX\nCloud: AWS S3, Athena, EC2\nDevelopment: VS Code, Jupyter, Quarto, Streamlit\n\n\n\nI am particularly interested in opportunities where analytical rigor and scientific context matter: healthcare, biotechnology, pharmaceutical R&D, research, and other data-intensive organizations. I also enjoy business analytics work where strong data preparation and clear reporting can directly improve decisions.\n\nView my portfolio Connect on LinkedIn"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Eastern University\n2025\n\n\n\nUniversity of Oregon\nMinor in Biochemistry · 2020\n\n\n\nUniversity of California, Santa Barbara\n2013\n\n\n\nAmazon Web Services\n2025"
+  },
+  {
+    "objectID": "about.html#technical-focus",
+    "href": "about.html#technical-focus",
+    "title": "About",
+    "section": "",
+    "text": "Programming & Data: Python, R, SQL, Pandas, NumPy, DuckDB, Git/GitHub\nMachine Learning: scikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation\nBusiness Intelligence: Power BI, Tableau, Excel, dimensional modeling, DAX\nCloud: AWS S3, Athena, EC2\nDevelopment: VS Code, Jupyter, Quarto, Streamlit"
+  },
+  {
+    "objectID": "about.html#what-i-am-looking-for",
+    "href": "about.html#what-i-am-looking-for",
+    "title": "About",
+    "section": "",
+    "text": "I am particularly interested in opportunities where analytical rigor and scientific context matter: healthcare, biotechnology, pharmaceutical R&D, research, and other data-intensive organizations. I also enjoy business analytics work where strong data preparation and clear reporting can directly improve decisions.\n\nView my portfolio Connect on LinkedIn"
   }
 ]

@@ -1,1 +1,1 @@
-Sitemap: https://danigeiger.github.io/geigerdatasolutions.com/sitemap.xml
+Sitemap: https://geigerdatasolutions.com/sitemap.xml

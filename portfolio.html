@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
 
 <title>Portfolio – Geiger Data Solutions</title>
 <style>
@@ -30,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-12f6946bb06afb64f2ed36f89a165916.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,9 +70,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Portfolio – Geiger Data Solutions">
+<meta property="og:description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
+<meta property="og:site_name" content="Geiger Data Solutions">
+<meta name="twitter:title" content="Portfolio – Geiger Data Solutions">
+<meta name="twitter:description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -97,12 +106,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./services.html"> 
-<span class="menu-text">Services</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
 <span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -111,6 +120,18 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/danigeiger"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jessica-d-geiger"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -132,6 +153,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Portfolio</h1>
 </div>
 
+<div>
+  <div class="description">
+    Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -146,9 +172,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Featured analytics and machine learning projects will be showcased here.</p>
+<section id="selected-projects" class="level1">
+<h1>Selected Projects</h1>
+<p>These projects demonstrate how I approach data problems from raw inputs through analysis, modeling, evaluation, and communication.</p>
+<div class="portfolio-item">
+<section id="cgrp-inhibitory-drug-discovery" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="cgrp-inhibitory-drug-discovery">CGRP Inhibitory Drug Discovery</h2>
+<p><strong>Machine Learning · Life Sciences</strong></p>
+</section>
+<p>Built a regression workflow to predict pIC50 values for CGRP receptor antagonists using molecular structure data sourced from ChEMBL. Chemical structures were represented with 880 binary fingerprint features, reduced to 133 features through variance-based selection. A tuned Random Forest regressor was deployed in an interactive Streamlit application for exploratory virtual screening.</p>
+<section id="highlights" class="level3">
+<h3 class="anchored" data-anchor-id="highlights">Highlights</h3>
+<ul>
+<li>538 in-vitro bioactivity samples; 430 used for model training.</li>
+<li>Evaluated tree-based ensemble approaches and performed multi-stage hyperparameter tuning.</li>
+<li>Final Random Forest test performance: <strong>R² = 0.815</strong> and <strong>RMSE = 0.445 pIC50</strong>.</li>
+<li>Built a Streamlit application that accepts molecular SMILES strings and returns predicted values.</li>
+<li>Documented intended use and limitations to distinguish exploratory screening from clinical or therapeutic decision-making.</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, scikit-learn, molecular fingerprints, ChEMBL, Streamlit, Git/GitHub</p>
+<p><a href="https://github.com/danigeiger/CGRP_project" class="btn btn-primary">GitHub Repository</a> <a href="https://cgrp-ic50-predictor.streamlit.app" class="btn btn-outline-primary">Live Streamlit App</a></p>
+</section>
+</div>
+<div class="portfolio-item">
+<section id="e-commerce-analytics-with-duckdb-power-bi" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="e-commerce-analytics-with-duckdb-power-bi">E-Commerce Analytics with DuckDB &amp; Power BI</h2>
+<p><strong>Analytics Engineering · SQL · Business Intelligence</strong></p>
+</section>
+<p>Built an end-to-end analytics workflow using retail sales data. The project begins with Python-based validation and preprocessing, moves into DuckDB for feature engineering and SQL analysis, and then carries the resulting analytical model into Power BI for dimensional modeling, DAX measures, and dashboard development.</p>
+<section id="highlights-1" class="level3">
+<h3 class="anchored" data-anchor-id="highlights-1">Highlights</h3>
+<ul>
+<li>Validated data types, business rules, dates, discounts, quantities, category relationships, and identifiers.</li>
+<li>Engineered analytical features including fulfillment time, profit margin, customer lifetime sales, customer span, and customer tiers.</li>
+<li>Used SQL to analyze customer, geographic, product, profitability, shipping, and time-based performance.</li>
+<li>Built a star-schema model in Power BI with reusable DAX measures.</li>
+<li>Developed an executive dashboard around approximately <strong>$2.30M in sales</strong>, <strong>$286K in profit</strong>, and <strong>5,009 orders</strong>.</li>
+<li>Extended the project into statistical modeling with multiple linear regression.</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, DuckDB, SQL, Power BI, DAX, dimensional modeling, regression, Git/GitHub</p>
+<p><a href="https://github.com/danigeiger/e_commerce_duckdb_project" class="btn btn-primary">GitHub Repository</a></p>
+</section>
+</div>
+<div class="portfolio-item portfolio-coming">
+<section id="healthcare-data-platform" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="healthcare-data-platform">Healthcare Data Platform</h2>
+<p><strong>Cloud Data Engineering · Machine Learning — In Development</strong></p>
+</section>
+<p>A healthcare-focused portfolio project designed to demonstrate a modern data platform workflow across data lake, warehouse, transformation, analytics, and machine learning layers. The project is being developed with careful attention to data-use restrictions and reproducibility.</p>
+<p><strong>Planned technologies:</strong> AWS S3, Redshift, SQL, Python, PyTorch, analytics engineering</p>
+</div>
+<section id="see-the-code" class="level2 callout-strip">
+<h2 class="anchored" data-anchor-id="see-the-code">See the code</h2>
+<p>My GitHub profile contains the notebooks, source code, project documentation, and supporting files behind these projects.</p>
+<p><a href="https://github.com/danigeiger" class="btn btn-light">Visit GitHub</a></p>
+</section>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -224,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/danigeiger\.github\.io\/geigerdatasolutions\.com\/");
+        var filterRegex = new RegExp("https:\/\/geigerdatasolutions\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -238,6 +319,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -552,8 +638,22 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Geiger Data Solutions, LLC</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Data Science · Analytics · Machine Learning</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
