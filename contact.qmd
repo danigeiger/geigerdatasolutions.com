@@ -1,9 +1,41 @@
 ---
 title: "Contact"
+description: "Contact Jessica Geiger and Geiger Data Solutions."
 ---
 
-# Contact
+# Let's connect
 
-Interested in working together?
+For data science opportunities, project collaboration, or independent analytics work, the best way to reach me is by email or LinkedIn.
 
-Email: daniellegeiger99@gmail.com
+::: {.contact-grid}
+::: {.contact-card}
+## Email
+
+**Jessica Geiger**  
+[daniellegeiger99@gmail.com](mailto:daniellegeiger99@gmail.com)
+:::
+
+::: {.contact-card}
+## LinkedIn
+
+Professional background, experience, and current work.
+
+[linkedin.com/in/jessica-d-geiger](https://www.linkedin.com/in/jessica-d-geiger)
+:::
+
+::: {.contact-card}
+## GitHub
+
+Code, notebooks, technical documentation, and project repositories.
+
+[github.com/danigeiger](https://github.com/danigeiger)
+:::
+:::
+
+## Geiger Data Solutions
+
+Based in the **San Francisco Bay Area, California**, with the ability to work remotely on data and analytics projects.
+
+::: {.contact-note}
+**Recruiters and hiring teams:** My portfolio pages link directly to the underlying repositories and deployed applications so you can review the technical work behind my résumé.
+:::

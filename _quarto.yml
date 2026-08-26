@@ -1,23 +1,47 @@
 project:
   type: website
+  output-dir: _site
+  resources:
+    - CNAME
 
 website:
   title: "Geiger Data Solutions"
+  site-url: "https://geigerdatasolutions.com"
+  description: "Data science, analytics, machine learning, and life sciences portfolio of Jessica Geiger."
+  favicon: favicon.svg
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
-      - href: services.qmd
-        text: Services
       - href: portfolio.qmd
         text: Portfolio
+      - href: services.qmd
+        text: Services
       - href: about.qmd
         text: About
       - href: contact.qmd
         text: Contact
+    right:
+      - icon: github
+        href: https://github.com/danigeiger
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jessica-d-geiger
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Geiger Data Solutions, LLC"
+    right: "Data Science · Analytics · Machine Learning"
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

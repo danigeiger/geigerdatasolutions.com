@@ -1,5 +1,59 @@
 ---
 title: "About"
+description: "About Jessica Geiger, data scientist and founder of Geiger Data Solutions."
 ---
 
-About this site
+# Jessica Geiger
+
+**Data Scientist · Pharmaceutical R&D Background · Founder, Geiger Data Solutions**
+
+I am a data scientist whose path into the field grew out of the life sciences. My academic background in human physiology and biochemistry, combined with professional experience in pharmaceutical R&D, shaped my interest in using computation and data to answer scientific questions.
+
+That interest led me to complete an **M.S. in Data Science at Eastern University in 2025**. My work now spans data analysis, SQL, machine learning, business intelligence, and cloud technologies, with a particular interest in healthcare and life-sciences applications.
+
+Before moving more deeply into data science, I worked in **R&D at AstraZeneca in Inhalation Product Development**, where I gained experience in a regulated pharmaceutical environment. Seeing how computational methods and AI were increasingly being applied to drug discovery was one of the major influences behind my decision to pursue graduate training in data science.
+
+## Education
+
+::: {.credential-grid}
+::: {.credential-card}
+### M.S. Data Science
+**Eastern University**  
+2025
+:::
+
+::: {.credential-card}
+### B.S. Human Physiology
+**University of Oregon**  
+Minor in Biochemistry · 2020
+:::
+
+::: {.credential-card}
+### B.A. Psychology
+**University of California, Santa Barbara**  
+2013
+:::
+
+::: {.credential-card}
+### AWS Certified Cloud Practitioner
+**Amazon Web Services**  
+2025
+:::
+:::
+
+## Technical focus
+
+**Programming & Data:** Python, R, SQL, Pandas, NumPy, DuckDB, Git/GitHub  
+**Machine Learning:** scikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation  
+**Business Intelligence:** Power BI, Tableau, Excel, dimensional modeling, DAX  
+**Cloud:** AWS S3, Athena, EC2  
+**Development:** VS Code, Jupyter, Quarto, Streamlit
+
+## What I am looking for
+
+I am particularly interested in opportunities where analytical rigor and scientific context matter: healthcare, biotechnology, pharmaceutical R&D, research, and other data-intensive organizations. I also enjoy business analytics work where strong data preparation and clear reporting can directly improve decisions.
+
+::: {.callout-strip}
+[View my portfolio](portfolio.qmd){.btn .btn-light}
+[Connect on LinkedIn](https://www.linkedin.com/in/jessica-d-geiger){.btn .btn-outline-light}
+:::

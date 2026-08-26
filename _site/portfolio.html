@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="About Jessica Geiger, data scientist and founder of Geiger Data Solutions.">
+<meta name="description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
 
-<title>About – Geiger Data Solutions</title>
+<title>Portfolio – Geiger Data Solutions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,11 +74,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="About – Geiger Data Solutions">
-<meta property="og:description" content="About Jessica Geiger, data scientist and founder of Geiger Data Solutions.">
+<meta property="og:title" content="Portfolio – Geiger Data Solutions">
+<meta property="og:description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
 <meta property="og:site_name" content="Geiger Data Solutions">
-<meta name="twitter:title" content="About – Geiger Data Solutions">
-<meta name="twitter:description" content="About Jessica Geiger, data scientist and founder of Geiger Data Solutions.">
+<meta name="twitter:title" content="Portfolio – Geiger Data Solutions">
+<meta name="twitter:description" content="Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
+    <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -150,12 +150,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Portfolio</h1>
 </div>
 
 <div>
   <div class="description">
-    About Jessica Geiger, data scientist and founder of Geiger Data Solutions.
+    Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger.
   </div>
 </div>
 
@@ -172,54 +172,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="jessica-geiger" class="level1">
-<h1>Jessica Geiger</h1>
-<p><strong>Data Scientist · Pharmaceutical R&amp;D Background · Founder, Geiger Data Solutions</strong></p>
-<p>I am a data scientist whose path into the field grew out of the life sciences. My academic background in human physiology and biochemistry, combined with professional experience in pharmaceutical R&amp;D, shaped my interest in using computation and data to answer scientific questions.</p>
-<p>That interest led me to complete an <strong>M.S. in Data Science at Eastern University in 2025</strong>. My work now spans data analysis, SQL, machine learning, business intelligence, and cloud technologies, with a particular interest in healthcare and life-sciences applications.</p>
-<p>Before moving more deeply into data science, I worked in <strong>R&amp;D at AstraZeneca in Inhalation Product Development</strong>, where I gained experience in a regulated pharmaceutical environment. Seeing how computational methods and AI were increasingly being applied to drug discovery was one of the major influences behind my decision to pursue graduate training in data science.</p>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<div class="credential-grid">
-<section id="m.s.-data-science" class="level3 credential-card">
-<h3 class="anchored" data-anchor-id="m.s.-data-science">M.S. Data Science</h3>
-<p><strong>Eastern University</strong><br>
-2025</p>
+<section id="selected-projects" class="level1">
+<h1>Selected Projects</h1>
+<p>These projects demonstrate how I approach data problems from raw inputs through analysis, modeling, evaluation, and communication.</p>
+<div class="portfolio-item">
+<section id="cgrp-inhibitory-drug-discovery" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="cgrp-inhibitory-drug-discovery">CGRP Inhibitory Drug Discovery</h2>
+<p><strong>Machine Learning · Life Sciences</strong></p>
 </section>
-<section id="b.s.-human-physiology" class="level3 credential-card">
-<h3 class="anchored" data-anchor-id="b.s.-human-physiology">B.S. Human Physiology</h3>
-<p><strong>University of Oregon</strong><br>
-Minor in Biochemistry · 2020</p>
-</section>
-<section id="b.a.-psychology" class="level3 credential-card">
-<h3 class="anchored" data-anchor-id="b.a.-psychology">B.A. Psychology</h3>
-<p><strong>University of California, Santa Barbara</strong><br>
-2013</p>
-</section>
-<section id="aws-certified-cloud-practitioner" class="level3 credential-card">
-<h3 class="anchored" data-anchor-id="aws-certified-cloud-practitioner">AWS Certified Cloud Practitioner</h3>
-<p><strong>Amazon Web Services</strong><br>
-2025</p>
+<p>Built a regression workflow to predict pIC50 values for CGRP receptor antagonists using molecular structure data sourced from ChEMBL. Chemical structures were represented with 880 binary fingerprint features, reduced to 133 features through variance-based selection. A tuned Random Forest regressor was deployed in an interactive Streamlit application for exploratory virtual screening.</p>
+<section id="highlights" class="level3">
+<h3 class="anchored" data-anchor-id="highlights">Highlights</h3>
+<ul>
+<li>538 in-vitro bioactivity samples; 430 used for model training.</li>
+<li>Evaluated tree-based ensemble approaches and performed multi-stage hyperparameter tuning.</li>
+<li>Final Random Forest test performance: <strong>R² = 0.815</strong> and <strong>RMSE = 0.445 pIC50</strong>.</li>
+<li>Built a Streamlit application that accepts molecular SMILES strings and returns predicted values.</li>
+<li>Documented intended use and limitations to distinguish exploratory screening from clinical or therapeutic decision-making.</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, scikit-learn, molecular fingerprints, ChEMBL, Streamlit, Git/GitHub</p>
+<p><a href="https://github.com/danigeiger/CGRP_project" class="btn btn-primary">GitHub Repository</a> <a href="https://cgrp-ic50-predictor.streamlit.app" class="btn btn-outline-primary">Live Streamlit App</a></p>
 </section>
 </div>
+<div class="portfolio-item">
+<section id="e-commerce-analytics-with-duckdb-power-bi" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="e-commerce-analytics-with-duckdb-power-bi">E-Commerce Analytics with DuckDB &amp; Power BI</h2>
+<p><strong>Analytics Engineering · SQL · Business Intelligence</strong></p>
 </section>
-<section id="technical-focus" class="level2">
-<h2 class="anchored" data-anchor-id="technical-focus">Technical focus</h2>
-<p><strong>Programming &amp; Data:</strong> Python, R, SQL, Pandas, NumPy, DuckDB, Git/GitHub<br>
-<strong>Machine Learning:</strong> scikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation<br>
-<strong>Business Intelligence:</strong> Power BI, Tableau, Excel, dimensional modeling, DAX<br>
-<strong>Cloud:</strong> AWS S3, Athena, EC2<br>
-<strong>Development:</strong> VS Code, Jupyter, Quarto, Streamlit</p>
+<p>Built an end-to-end analytics workflow using retail sales data. The project begins with Python-based validation and preprocessing, moves into DuckDB for feature engineering and SQL analysis, and then carries the resulting analytical model into Power BI for dimensional modeling, DAX measures, and dashboard development.</p>
+<section id="highlights-1" class="level3">
+<h3 class="anchored" data-anchor-id="highlights-1">Highlights</h3>
+<ul>
+<li>Validated data types, business rules, dates, discounts, quantities, category relationships, and identifiers.</li>
+<li>Engineered analytical features including fulfillment time, profit margin, customer lifetime sales, customer span, and customer tiers.</li>
+<li>Used SQL to analyze customer, geographic, product, profitability, shipping, and time-based performance.</li>
+<li>Built a star-schema model in Power BI with reusable DAX measures.</li>
+<li>Developed an executive dashboard around approximately <strong>$2.30M in sales</strong>, <strong>$286K in profit</strong>, and <strong>5,009 orders</strong>.</li>
+<li>Extended the project into statistical modeling with multiple linear regression.</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, DuckDB, SQL, Power BI, DAX, dimensional modeling, regression, Git/GitHub</p>
+<p><a href="https://github.com/danigeiger/e_commerce_duckdb_project" class="btn btn-primary">GitHub Repository</a></p>
 </section>
-<section id="what-i-am-looking-for" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-am-looking-for">What I am looking for</h2>
-<p>I am particularly interested in opportunities where analytical rigor and scientific context matter: healthcare, biotechnology, pharmaceutical R&amp;D, research, and other data-intensive organizations. I also enjoy business analytics work where strong data preparation and clear reporting can directly improve decisions.</p>
-<div class="callout-strip">
-<p><a href="./portfolio.html" class="btn btn-light">View my portfolio</a> <a href="https://www.linkedin.com/in/jessica-d-geiger" class="btn btn-outline-light">Connect on LinkedIn</a></p>
 </div>
-
-
+<div class="portfolio-item portfolio-coming">
+<section id="healthcare-data-platform" class="level2 portfolio-heading">
+<h2 class="anchored" data-anchor-id="healthcare-data-platform">Healthcare Data Platform</h2>
+<p><strong>Cloud Data Engineering · Machine Learning — In Development</strong></p>
 </section>
+<p>A healthcare-focused portfolio project designed to demonstrate a modern data platform workflow across data lake, warehouse, transformation, analytics, and machine learning layers. The project is being developed with careful attention to data-use restrictions and reproducibility.</p>
+<p><strong>Planned technologies:</strong> AWS S3, Redshift, SQL, Python, PyTorch, analytics engineering</p>
+</div>
+<section id="see-the-code" class="level2 callout-strip">
+<h2 class="anchored" data-anchor-id="see-the-code">See the code</h2>
+<p>My GitHub profile contains the notebooks, source code, project documentation, and supporting files behind these projects.</p>
+<p><a href="https://github.com/danigeiger" class="btn btn-light">Visit GitHub</a></p>
+</section>
+
+
 </section>
 
 </main> <!-- /main -->

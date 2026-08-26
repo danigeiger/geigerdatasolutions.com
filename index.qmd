@@ -1,7 +1,82 @@
 ---
-title: "geigerdatasolutions.com"
+title: "Geiger Data Solutions"
+pagetitle: "Geiger Data Solutions | Data Science & Analytics"
+description: "Portfolio and data science work by Jessica Geiger, M.S. Data Science, with experience in pharmaceutical R&D, machine learning, analytics, and cloud technologies."
+title-block-banner: false
 ---
 
-This is a Quarto website.
+::: {.hero}
+::: {.hero-kicker}
+DATA SCIENCE · ANALYTICS · MACHINE LEARNING
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Turning complex data into clear, useful decisions.
+
+I'm **Jessica Geiger**, a data scientist with a background in pharmaceutical R&D, human physiology, and applied machine learning. I build practical analytics and modeling workflows with Python, SQL, business intelligence tools, and cloud technologies.
+
+::: {.hero-actions}
+[View My Work](portfolio.qmd){.btn .btn-primary .btn-lg}
+[About Me](about.qmd){.btn .btn-outline-primary .btn-lg}
+:::
+:::
+
+## Featured work
+
+::: {.project-grid}
+::: {.project-card}
+### CGRP Drug Discovery Machine Learning
+
+A machine-learning workflow for predicting the potency of CGRP receptor antagonists from molecular structure. The project covers chemical data preparation, molecular fingerprints, feature selection, model tuning, evaluation, and deployment through a Streamlit application.
+
+**Python · scikit-learn · ChEMBL · Molecular Fingerprints · Streamlit**
+
+**Test performance:** R² 0.815 · RMSE 0.445 pIC50
+
+[Explore project →](https://github.com/danigeiger/CGRP_project){.project-link}
+[Launch app →](https://cgrp-ic50-predictor.streamlit.app){.project-link}
+:::
+
+::: {.project-card}
+### Retail Analytics & Business Intelligence
+
+An end-to-end analytics project built from a retail sales dataset, moving from data validation and feature engineering to SQL business analysis, dimensional modeling, and Power BI reporting.
+
+**Python · Pandas · DuckDB · SQL · Power BI · Regression**
+
+**Dataset scale:** $2.30M sales · 5,009 orders
+
+[Explore project →](https://github.com/danigeiger/e_commerce_duckdb_project){.project-link}
+:::
+:::
+
+## What I work with
+
+::: {.skill-grid}
+::: {.skill-card}
+### Data & Programming
+Python, SQL, R, Pandas, NumPy, DuckDB, Git/GitHub
+:::
+
+::: {.skill-card}
+### Machine Learning
+scikit-learn, regression, classification, ensemble methods, feature engineering, model evaluation
+:::
+
+::: {.skill-card}
+### Analytics & BI
+Power BI, Tableau, Excel, data visualization, business analysis, dimensional modeling
+:::
+
+::: {.skill-card}
+### Cloud & Platforms
+AWS, S3, Athena, EC2, Streamlit, VS Code
+:::
+:::
+
+::: {.callout-strip}
+## Life sciences + data science
+
+My technical training is paired with experience in pharmaceutical R&D and academic training in human physiology and biochemistry. I am especially interested in work where data science can support scientific, healthcare, and research decisions.
+
+[Learn more about my background](about.qmd){.btn .btn-light}
+:::

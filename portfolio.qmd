@@ -1,7 +1,74 @@
 ---
 title: "Portfolio"
+description: "Selected machine learning, analytics, SQL, and business intelligence projects by Jessica Geiger."
 ---
 
-# Portfolio
+# Selected Projects
 
-Featured analytics and machine learning projects will be showcased here.
+These projects demonstrate how I approach data problems from raw inputs through analysis, modeling, evaluation, and communication.
+
+::: {.portfolio-item}
+::: {.portfolio-heading}
+## CGRP Inhibitory Drug Discovery
+
+**Machine Learning · Life Sciences**
+:::
+
+Built a regression workflow to predict pIC50 values for CGRP receptor antagonists using molecular structure data sourced from ChEMBL. Chemical structures were represented with 880 binary fingerprint features, reduced to 133 features through variance-based selection. A tuned Random Forest regressor was deployed in an interactive Streamlit application for exploratory virtual screening.
+
+### Highlights
+
+- 538 in-vitro bioactivity samples; 430 used for model training.
+- Evaluated tree-based ensemble approaches and performed multi-stage hyperparameter tuning.
+- Final Random Forest test performance: **R² = 0.815** and **RMSE = 0.445 pIC50**.
+- Built a Streamlit application that accepts molecular SMILES strings and returns predicted values.
+- Documented intended use and limitations to distinguish exploratory screening from clinical or therapeutic decision-making.
+
+**Technologies:** Python, Pandas, scikit-learn, molecular fingerprints, ChEMBL, Streamlit, Git/GitHub
+
+[GitHub Repository](https://github.com/danigeiger/CGRP_project){.btn .btn-primary}
+[Live Streamlit App](https://cgrp-ic50-predictor.streamlit.app){.btn .btn-outline-primary}
+:::
+
+::: {.portfolio-item}
+::: {.portfolio-heading}
+## E-Commerce Analytics with DuckDB & Power BI
+
+**Analytics Engineering · SQL · Business Intelligence**
+:::
+
+Built an end-to-end analytics workflow using retail sales data. The project begins with Python-based validation and preprocessing, moves into DuckDB for feature engineering and SQL analysis, and then carries the resulting analytical model into Power BI for dimensional modeling, DAX measures, and dashboard development.
+
+### Highlights
+
+- Validated data types, business rules, dates, discounts, quantities, category relationships, and identifiers.
+- Engineered analytical features including fulfillment time, profit margin, customer lifetime sales, customer span, and customer tiers.
+- Used SQL to analyze customer, geographic, product, profitability, shipping, and time-based performance.
+- Built a star-schema model in Power BI with reusable DAX measures.
+- Developed an executive dashboard around approximately **$2.30M in sales**, **$286K in profit**, and **5,009 orders**.
+- Extended the project into statistical modeling with multiple linear regression.
+
+**Technologies:** Python, Pandas, DuckDB, SQL, Power BI, DAX, dimensional modeling, regression, Git/GitHub
+
+[GitHub Repository](https://github.com/danigeiger/e_commerce_duckdb_project){.btn .btn-primary}
+:::
+
+::: {.portfolio-item .portfolio-coming}
+::: {.portfolio-heading}
+## Healthcare Data Platform
+
+**Cloud Data Engineering · Machine Learning — In Development**
+:::
+
+A healthcare-focused portfolio project designed to demonstrate a modern data platform workflow across data lake, warehouse, transformation, analytics, and machine learning layers. The project is being developed with careful attention to data-use restrictions and reproducibility.
+
+**Planned technologies:** AWS S3, Redshift, SQL, Python, PyTorch, analytics engineering
+:::
+
+::: {.callout-strip}
+## See the code
+
+My GitHub profile contains the notebooks, source code, project documentation, and supporting files behind these projects.
+
+[Visit GitHub](https://github.com/danigeiger){.btn .btn-light}
+:::

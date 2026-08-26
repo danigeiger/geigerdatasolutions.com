@@ -1,7 +1,58 @@
 ---
-title: "Data Services"
+title: "Services"
+description: "Data analysis, dashboarding, data preparation, and applied machine learning services from Geiger Data Solutions."
 ---
 
-# Services
+# Data work built around the question that needs answering
 
-This page will describe the analytics services offered by Geiger Data Solutions.
+Geiger Data Solutions is a small independent data practice focused on clear analysis, reproducible workflows, and useful deliverables. Engagements can range from focused analytical support to complete reporting and modeling workflows.
+
+::: {.service-grid}
+::: {.service-card}
+## Data Analysis & SQL
+
+Explore datasets, define useful metrics, identify trends, and answer business or research questions using Python and SQL.
+
+**Typical work:** exploratory analysis, KPI development, segmentation, trend analysis, data validation, SQL reporting.
+:::
+
+::: {.service-card}
+## Dashboards & Reporting
+
+Transform analytical results into clear dashboards and decision-ready reporting for technical and non-technical audiences.
+
+**Tools:** Power BI, Tableau, Excel, Python visualization.
+:::
+
+::: {.service-card}
+## Data Preparation & Pipelines
+
+Clean, validate, restructure, and document data so that downstream analysis is more reliable and repeatable.
+
+**Typical work:** data cleaning, feature engineering, ETL/ELT workflows, analytical datasets, dimensional models.
+:::
+
+::: {.service-card}
+## Applied Machine Learning
+
+Build and evaluate predictive models when the available data and business question support a machine-learning approach.
+
+**Typical work:** regression, classification, feature engineering, model comparison, evaluation, lightweight deployment.
+:::
+:::
+
+## Areas of particular interest
+
+My background is especially relevant to **healthcare, biotechnology, pharmaceutical, scientific, and research-oriented data**, while my analytics work also applies broadly to operational and business datasets.
+
+## How I work
+
+I favor straightforward solutions that can be explained, reproduced, and maintained. That means documenting assumptions, checking data quality before modeling, choosing tools based on the problem rather than the buzzword, and communicating both results and limitations.
+
+::: {.callout-strip}
+## Have a data problem to discuss?
+
+If you have a dataset, reporting need, or analytical question and want to see whether I can help, get in touch.
+
+[Contact Geiger Data Solutions](contact.qmd){.btn .btn-light}
+:::
